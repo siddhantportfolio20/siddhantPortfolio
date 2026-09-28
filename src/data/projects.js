@@ -8,7 +8,7 @@ export const projects = [
     description: 'A full-stack healthcare platform for appointments, patient management, doctor services and AI-assisted diagnostic reporting.',
     tech: ['React','Node.js','Express','MongoDB','Tailwind CSS','AI APIs','Google Maps API'],
     features: ['Appointment management','Patient/doctor workflows','15+ REST APIs','20+ reusable React components','AI-assisted diagnostic reporting','Google Maps integration','PDF report generation'],
-    github: 'https://github.com/siddhantportfolio20/CareXpert-AI', live: 'https://siddhant-portfolio-xi.vercel.app/' },
+    github: 'https://github.com/siddhantportfolio20/CareXpert-AI', live: 'https://care-xpert-ai-tau.vercel.app/' },
   { id: '03', title: 'Blogging Platform', subtitle: 'A role-based content management system.',
     description: 'A full-stack blogging platform with separate user and admin workflows for publishing, authentication and comment moderation.',
     tech: ['React','Node.js','Express','MongoDB','JWT'],
