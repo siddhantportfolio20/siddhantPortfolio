@@ -1,0 +1,17 @@
+export const projects = [
+  { id: '01', featured: true, title: 'Foodora', subtitle: 'Food ordering meets short-form food discovery.',
+    description: 'A MERN-based food ordering platform combining short-form food reels, food discovery, food management and ordering workflows.',
+    tech: ['React','Node.js','Express','MongoDB','ImageKit','JWT'],
+    features: ['Food reels','Food discovery','Ordering workflow','User authentication','Food partner dashboard','Role-based authorization','Cookie-based authentication','Cloud media management'],
+    github: 'https://github.com/siddhantportfolio20/Foodora-frontend', live: 'https://foodora-frontend.vercel.app' },
+  { id: '02', title: 'CareXpertAI', subtitle: 'Healthcare workflows with AI-assisted reporting.',
+    description: 'A full-stack healthcare platform for appointments, patient management, doctor services and AI-assisted diagnostic reporting.',
+    tech: ['React','Node.js','Express','MongoDB','Tailwind CSS','AI APIs','Google Maps API'],
+    features: ['Appointment management','Patient/doctor workflows','15+ REST APIs','20+ reusable React components','AI-assisted diagnostic reporting','Google Maps integration','PDF report generation'],
+    github: 'https://github.com/siddhantportfolio20/CareXpert-AI', live: 'https://care-xpert-ai-tau.vercel.app/patient' },
+  { id: '03', title: 'Blogging Platform', subtitle: 'A role-based content management system.',
+    description: 'A full-stack blogging platform with separate user and admin workflows for publishing, authentication and comment moderation.',
+    tech: ['React','Node.js','Express','MongoDB','JWT'],
+    features: ['User authentication','Admin authentication','Blog publishing','Comment management','Role-based authorization','Protected routes','Admin moderation workflow'],
+    github: 'https://github.com/siddhantportfolio20/blogging-site' },
+]

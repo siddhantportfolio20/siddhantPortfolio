@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{@apply bg-ink text-paper font-sans antialiased overflow-x-hidden}
+::selection{background:#e0a458;color:#0e0e0c}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+.btn{@apply inline-flex items-center gap-2 px-5 py-3 text-sm border border-line transition hover:border-accent hover:text-accent min-h-[44px]}
+.btn-solid{@apply bg-paper text-ink border-paper hover:bg-accent hover:border-accent hover:text-ink}
+.eyebrow{@apply font-mono text-xs tracking-widest uppercase text-accent}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none;opacity:1;transform:none}}
