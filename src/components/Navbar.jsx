@@ -25,7 +25,7 @@ export default function Navbar() {
     SIDDHANT TILAK
   </span>
 </a>
-        <a href="#top" className="font-mono text-sm tracking-widest">SIDDHANT TILAK</a>
+        
         <ul className="hidden md:flex items-center gap-8 text-sm text-paper/70">
           {links.map(l => <li key={l}><a className="hover:text-accent transition" href={`#${l.toLowerCase()}`}>{l}</a></li>)}
           <li><a href={site.resume} target="_blank" rel="noreferrer" className="border border-line px-3 py-1.5 hover:border-accent hover:text-accent transition">Resume</a></li>
